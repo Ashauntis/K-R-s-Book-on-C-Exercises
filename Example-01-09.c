@@ -1,3 +1,8 @@
+// The function getline required c to be declared as a char
+// instead of an int as in the book to function correclty.
+// This appears to be a change in the C language since the
+// book was written or a change in the clang compiler.
+
 #include <stdio.h>
 #define MAXLINE 200 /* maximum input line size*/
 
